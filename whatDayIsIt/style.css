@@ -5,11 +5,11 @@
 }
 
 header{
-
   font-size: 64px;
-  color: white;
-  background-color: #a0f441;
+  color: #212121;
+  background-color: #C8FF75;
   padding: 30px;
+  border-bottom: 20px solid #a0f441;
 }
 body{
   text-align: center;
