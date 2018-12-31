@@ -16,7 +16,8 @@ var testDate = new Date("2019-04-25T08:29:00Z")
 var testDateStamp = testDate.getTime();
 var startDate = new Date ("2019-01-07T08:28:00Z");
 var startDateTimeStamp = startDate.getTime();
-var msDiff = Math.abs(testDate-startDateTimeStamp); //change to NOW
+var msDiff = Math.abs(now-startDateTimeStamp)
+//var msDiff = Math.abs(testDate-startDateTimeStamp); //change to NOW
 var dateDiff = Math.floor(msDiff/(1000*3600*24))
 console.log(dateDiff);
 
@@ -24,7 +25,7 @@ var nDays = ["February 01, 2019", "February 18, 2019", "March 11, 2019","March 1
 var passedNDays = 0;
 
 for (var i=0; i < nDays.length; i++){
-  if (testDate > new Date(nDays[i])){ //change to NOW
+  if (now > new Date(nDays[i])){ //change to NOW
     passedNDays++;
     console.log("Passed a day; Total Days Passed: " + passedNDays); //works !
     //break?
