@@ -34,5 +34,5 @@ for (var i=0; i < nDays.length; i++){
 
 dateDiff -= passedNDays;
 var datebox = document.getElementById('dayNum');
-var numMap = ["Two", "One"]
+var numMap = ["One", "Two"]
 datebox.innerHTML = numMap[dateDiff%2];
