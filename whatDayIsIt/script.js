@@ -5,7 +5,7 @@ var year = currentDate.getFullYear();
 var monthNames = [
   "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
 ];
-var daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+var daysOfWeek = ["Sun", "Mon", "Tues", "Wednes", "Thurs", "Fri", "Sat"];
 var dateListing = daysOfWeek[currentDate.getDay()] + "day, " +date + " " + monthNames[month] + " " + year;
 const dateDisplay = document.getElementById('dateDisplay');
 dateDisplay.innerHTML = dateListing;
